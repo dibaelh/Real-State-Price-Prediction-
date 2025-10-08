@@ -40,7 +40,7 @@ jupyter notebook
 Open `Real_State_price_prediction.ipynb` and run the cells top-to-bottom.
 
 ### Data
-- Place your dataset file(s) in this folder or update the notebook's data path accordingly.
+- https://www.kaggle.com/datasets/quantbruce/real-estate-price-prediction
 - Expected format is typically a CSV with columns such as features (e.g., bedrooms, bathrooms, sqft, location encodings) and a target column (e.g., price). Adjust column names in the notebook as needed.
 
 ### Reproducibility
@@ -56,16 +56,6 @@ Open `Real_State_price_prediction.ipynb` and run the cells top-to-bottom.
 6) Evaluation (e.g., RMSE, MAE, R^2)
 7) Basic model comparison and selection
 
-### Saving Models (optional)
-If you add persistence, you can export the trained model with joblib:
-```python
-import joblib
-joblib.dump(model, "model.joblib")
-```
-Then load it later with:
-```python
-model = joblib.load("model.joblib")
-```
 
 ### Troubleshooting
 - If plots don’t render, ensure the notebook uses an inline backend (e.g., `%matplotlib inline`).
