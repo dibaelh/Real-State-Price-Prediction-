@@ -73,6 +73,6 @@ model = joblib.load("model.joblib")
 - If imports fail, confirm the environment is active and packages are installed.
 
 ### License
-This project is provided as-is for educational purposes. Add your preferred license if needed.
+This project is provided as-is for educational purposes. 
 
 
