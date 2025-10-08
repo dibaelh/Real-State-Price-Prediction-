@@ -69,7 +69,7 @@ model = joblib.load("model.joblib")
 
 ### Troubleshooting
 - If plots don’t render, ensure the notebook uses an inline backend (e.g., `%matplotlib inline`).
-- If a CSV isn’t found, verify the relative/absolute path referenced in the notebook.
+- If a CSV isn’t found, check out https://www.kaggle.com/datasets/quantbruce/real-estate-price-prediction.
 - If imports fail, confirm the environment is active and packages are installed.
 
 ### License
